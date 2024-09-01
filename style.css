@@ -1,0 +1,89 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-one {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.section-one__descitem {
+    display: inline;
+    color: gray;
+}
+
+.section-one__descitem:hover {
+    color: white;
+}
+
+.section-two {
+    text-align: center;
+    padding: 10px;
+}
+
+.section-two__box {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    width: 220px;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.section-two__order-button {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0px;
+    border-radius: 2px;
+}
+
+.section-two__order-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.section-three {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-three__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three__send-button {
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    background-color: yellow;
+    border-radius: 3px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
+
+.section-three__description-input::placeholder {
+    font-family: "Poppins", sans-serif;
+}
